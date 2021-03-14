@@ -1,0 +1,44 @@
+.hero {
+    max-width: 1440px;
+    min-height: 840px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+    &__yellow-layer {
+        width: 77.5%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: $hero-bg-color;
+        z-index: 1;
+    }
+
+    &__white-layer {
+        width: 22.5%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        z-index: 4;
+
+        img {
+            position: absolute;
+            right: 0;
+            z-index: 3;
+        }
+    }
+
+    &__blue-layer {
+        width: 700px;
+        height: 550px;
+        position: absolute;
+        background-color: #EDFDFF;
+        border-radius: 243px / 300px;
+        transform: rotate(-56deg);
+        top: 0;
+        right: -118px;
+        z-index: 2;
+    }
+}
