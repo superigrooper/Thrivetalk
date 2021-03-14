@@ -1,0 +1,25 @@
+.navigation {
+    // min-width: 453px;
+    font-family:  'Larsseit-Regular', sans-serif;
+    font-size: 14px;
+    &__list {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    &__item {
+        padding: 0 8px;
+        &:hover {
+            border-bottom: 1px solid $dark-text;
+            font-weight: 600;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color: $dark-text;
+        padding-bottom: 8px;
+      
+    }
+}

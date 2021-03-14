@@ -1,6 +1,10 @@
 @import "reset";
 @import "fonts";
 @import "variables";
+@import "lib/button/button";
 @import "base";
-@import "blocks/hero";
+@import "blocks/hero/hero";
+@import "blocks/hero/__header/hero__header";
+@import "blocks/hero/__logo/hero__logo";
+@import "blocks/navigation/navigation";
 @import "blocks/why";
