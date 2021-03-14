@@ -1,0 +1,11 @@
+.hero {
+
+    &__yellow-layer {
+        width: 77.5%;
+        min-height: 840px;
+        top: 0;
+        left: 0;
+        background-color: $hero-bg-color;
+        z-index: 1;
+    }
+}

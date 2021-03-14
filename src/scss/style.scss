@@ -1,11 +1,21 @@
-@import "reset";
-@import "fonts";
-@import "variables";
+// common files
+@import "common/reset";
+@import "common/fonts";
+@import "common/variables";
+@import "common/base";
+
+// libs
 @import "lib/button/button";
-@import "base";
+@import "lib/navigation/navigation";
+@import "lib/navigation/navigation-media";
+
+// blocks
+
+/*   hero   */
 @import "blocks/hero/hero";
 @import "blocks/hero/__header/hero__header";
 @import "blocks/hero/__logo/hero__logo";
-@import "blocks/navigation/navigation";
-@import "blocks/navigation/navigation-media";
-@import "blocks/why";
+@import "blocks/hero/__layers/hero__layers";
+@import "blocks/hero/__blue-layer/hero__blue-layer";
+@import "blocks/hero/__white-layer/hero__white-layer";
+@import "blocks/hero/__yellow-layer/hero__yellow-layer";

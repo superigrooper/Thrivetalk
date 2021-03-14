@@ -1,0 +1,17 @@
+.hero {
+
+    &__white-layer {
+        width: 22.5%;
+        min-height: 840px;
+        top: 0;
+        right: 0;
+        position: relative;
+        z-index: 4;
+
+        img {
+            position: absolute;
+            right: 0;
+            z-index: 3;
+        }
+    }
+}
