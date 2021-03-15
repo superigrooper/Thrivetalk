@@ -1,4 +1,8 @@
 .navigation {
     font-family:  'Larsseit-Regular', sans-serif;
     font-size: 14px;
+
+    @media (max-width: 767px) {
+        order: 1;
+    }
 }

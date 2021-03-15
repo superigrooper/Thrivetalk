@@ -1,10 +1,16 @@
 .navigation {
     &__item {
         padding: 0 8px;
+        text-align: center;
 
         &:hover {
             border-bottom: 1px solid $dark-text;
             font-weight: 600;
+        }
+
+        @media (max-width: 767px) {
+            border-bottom: 1px solid $dark-text;
+            margin: 3px 0;
         }
     }
 }
