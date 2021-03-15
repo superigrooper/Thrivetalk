@@ -1,0 +1,11 @@
+.hero {
+
+    &__descr {
+        width: 470px;
+        font-family: 'Larsseit-Regular', sans-serif;
+        font-size: 24px;
+        line-height: 42px;
+        margin-top: 80px;
+        color: $dark-text;
+    }
+}

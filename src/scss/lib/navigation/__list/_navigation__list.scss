@@ -1,0 +1,9 @@
+.navigation {
+
+    &__list {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+}

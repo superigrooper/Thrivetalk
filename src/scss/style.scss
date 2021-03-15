@@ -6,7 +6,13 @@
 
 // libs
 @import "lib/button/button";
+@import "lib/button/_yellow/button_yellow";
+@import "lib/button/_transparent/button_transparent";
 @import "lib/navigation/navigation";
+@import "lib/navigation/__list/navigation__list";
+@import "lib/navigation/__item/navigation__item";
+@import "lib/navigation/__link/navigation__link";
+@import "lib/navigation/_active/navigation_active";
 @import "lib/navigation/navigation-media";
 
 // blocks
@@ -15,6 +21,10 @@
 @import "blocks/hero/hero";
 @import "blocks/hero/__header/hero__header";
 @import "blocks/hero/__logo/hero__logo";
+@import "blocks/hero/__info/hero__info.scss";
+@import "blocks/hero/__title/hero__ttile";
+@import "blocks/hero/__descr/hero__descr";
+@import "blocks/hero/__buttons/hero__buttons";
 @import "blocks/hero/__layers/hero__layers";
 @import "blocks/hero/__blue-layer/hero__blue-layer";
 @import "blocks/hero/__white-layer/hero__white-layer";
